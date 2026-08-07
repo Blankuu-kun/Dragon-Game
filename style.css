@@ -12,7 +12,7 @@ button{
     background-color: black;
     color: white;
     font-family: 'Geist Pixel', sans-serif;
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 
 button:hover{
@@ -112,7 +112,7 @@ button:hover{
 }
 
 p{
-    font-size: 2rem;
+    font-size: clamp(1rem, 2vw, 2rem);
 }
 
 .icons{
