@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist+Pixel&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <title>Dragon Game</title>
+</head>
+<body>
+    <div id="container">
+        <div id="stats">
+            <img src="./assets/items/heart.png" class="icons">
+            <p>100</p>
+        </div>
+        <div class="direction" id="up">
+            <button>UP</button>
+        </div>
+        <div id="empty"></div>
+        <div class="direction" id="left">
+            <button>LEFT</button>
+        </div>
+        <div id="main">
+            <img src="./assets/background/entrance.jpg">
+            <div id="dialogue">
+                <p>Nulla ac nunc sit amet felis vestibulum fermentum a sit amet turpis. 
+                    Pellentesque consequat orci tortor, at porta lectus condimentum sed. 
+                    In ultricies ut libero at facilisis. Sed at tristique urna. </p>
+            </div>
+        </div>
+        <div class="direction" id="right">
+            <button>RIGHT</button>
+        </div>
+        <div id="items">
+            <button class="item">
+                <img src="./assets/items/rock.png" class="icons item">
+                <h3>Rock</h3>
+            </button>
+            <button id="previous">Previous Item</button>
+            <button id="next">Next Item</button>
+        </div>
+        <div class="direction" id="down">
+            <button>DOWN</button>
+        </div>
+        <div id="inspect">
+            <button>Inspect Room</button>
+            <button class="search">Search Item</button>
+        </div>
+    </div>
+    <script src="./itemClasses.js"></script>
+    <script src="./rooms.js"></script>
+    <script src="./script.js"></script> 
+</body>
+</html>
